@@ -1,0 +1,13 @@
+.selection-input-4 , select[name="datatable-basic_length"]{
+    cursor: pointer;
+}
+.alert-danger {
+    color: #c63816;
+    border-color: #ffebe6;
+    background-color: #ffebe6;
+}
+
+.alert-cancel-btn::before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f05e";
+  }

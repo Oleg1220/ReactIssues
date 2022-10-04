@@ -1,0 +1,64 @@
+.Scrollble {
+    position: relative;
+    width:100%;
+    z-index: 1;
+    margin: auto;
+    overflow: auto;
+    height: 600;
+  }
+  .Scrollble table-responsive {
+    width: 100%;
+    min-width: 1280px;
+    border-collapse: separate;
+    border-spacing: 0;
+  }
+  .react-bootstrap-table{
+    height: 470px;
+  }
+  .Scrollble th,
+  .Scrollble td {
+    background: #fff;
+    vertical-align: top;
+  }
+  .Scrollble thead th {
+    /* background: #174278; */
+    color: black;
+    z-index:4;
+    font-size: 0.8rem;
+    height: 50px;    
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    border: 0;
+  }
+  .Scrollble thead th{
+    padding-top: 10px;
+    margin-top: -20px;
+  }
+  .react-bootstrap-table th.sortable {
+    /* background: #174278; */
+    color: black;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 1;
+  }
+  .Scrollble .react-bootstrap-table-pagination, .Scrollble tfoot th, .Scrollble tfoot td{
+    padding-top: 10px;
+  }
+  /* .react-bootstrap-table .order-4:after, .react-bootstrap-table .order-4:before, .react-bootstrap-table .caret-4-asc:after, .react-bootstrap-table .caret-4-asc:before, .react-bootstrap-table .caret-4-desc:after, .react-bootstrap-table .caret-4-desc:before{
+    color: red;
+    opacity: 100%;
+  } */
+
+  /* safari and ios need the tfoot itself to be position:sticky also */
+  .Scrollble .react-bootstrap-table-pagination,
+  .Scrollble tfoot th,
+  .Scrollble tfoot td {
+    position: -webkit-sticky;
+    position: sticky;
+    bottom: 0;
+    z-index:4;
+  }
+  ::-webkit-scrollbar {
+    display: none;
+}

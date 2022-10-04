@@ -1,0 +1,19 @@
+.btn + .btn {
+  margin-left: 4px;
+}
+.btn-group + .btn-group {
+  margin-left: 4px;
+}
+.btn.btn-sm.btn-.btn-icon-only.text-light{
+  background-color: transparent;
+}
+.input-group {
+  .btn + .btn {
+    margin-left: -1px;
+  }
+}
+
+
+.btn-cust-md {
+  @include button-size($btn-padding-y-md-cust, $btn-padding-x-md-cust, $btn-font-size, $btn-line-height-md-cust, $btn-border-radius-sm);
+}

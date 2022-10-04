@@ -1,0 +1,9 @@
+.dropdown-menu.show{
+    position: fixed;
+
+}
+.Dropdownaction{
+    position: fixed;
+    z-index: 9999;
+}
+
